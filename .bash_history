@@ -1,38 +1,3 @@
-ssh 192.168.2.3
-sudo -i
-cat .ssh/authorized_keys 
-cat .ssh/id_rsa.pub 
-ssh 192.168.1.9
-ssh 192.168.1.13
-telnet google.de 443
->/dev/tcp/google.de/443 && echo 'open'
-dig google.de
-ping google.de
-ss -lntp
-curl google.de
-cat /etc/resolv.conf 
-dig
-telnet 192.168.1.2
-telnet 192.168.1.2 53
-ip r
-sudo -i
-ssh 192.168.1.13
-ssh 192.168.1.9
-subscription-manager 
-sudo -i
-ssh 192.168.1.13
-vim .ssh/authorized_keys 
-ssh 192.168.1.9
-sudo -i
-ssh 192.168.1.9
-ssh 192.168.1.13
-uptime
-sudo -i
-ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/byo/config.yml
-ssh 192.168.1.12
-ip a
-cat .ssh/id_rsa.pub >>.ssh/authorized_keys 
-ssh 192.168.1.12
 ls -la /usr/share/ansible/openshift-ansible/playbooks/byo/config.retry
 ls -la /usr/share/ansible/openshift-ansible/playbooks/byo/
 sudo -i 
@@ -998,3 +963,38 @@ git remote add origin https://mkrohnen@mamtools.com/gitlab/mkrohnen/welcome-mile
 git push -u origin --all
 git push -u origin --tags
 exit
+git .
+git add .
+git commit -m "add setting.xml"
+cd welcome-miles/
+cd .git/
+git add .
+cd ..
+git add .
+git commit -m "add setting.xml"
+git push -u origin --all
+git add .
+git commit -m "add setting.xml"
+git push -u origin --all
+git add .
+git commit -m "add setting.xml"
+git push -u origin --all
+git add .
+git commit -m "add new setting.xml"
+git push -u origin --all
+git push -u origin
+git push
+git add .
+git rm settings.xml
+git commit -m "settings deleted"
+git push
+git add .
+git commit -m "settings new"
+git push
+ssh openshift-node-1
+ls -la
+cd properties
+ls -la
+less mce-el.properties 
+ls -la
+grep sirax *properties
